@@ -1,0 +1,19 @@
+{
+  "name": "rankova-discord-bot",
+  "version": "2.0.0",
+  "description": "RANKOVA - Free Fire competitive Discord platform",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.1"
+  },
+  "private": true
+}
